@@ -1,0 +1,1 @@
+Cuando hacemos un post los datos viajas  viajan atraves del cuerpo http
