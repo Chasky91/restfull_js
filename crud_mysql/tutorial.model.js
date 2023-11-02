@@ -61,9 +61,9 @@ Tutorial.getAll = (title, result) => {
 Tutorial.getAllPublished = result => {
     connection.query("SELECT * FROM tutorials WHERE published=true", (err, res) => {
         if (err) {
-        console.log("error: ", err);
-        result(null, err);
-        return;
+            console.log("error: ", err);
+            result(null, err);
+            return;
         }
 
         console.log("tutorials: ", res);
